@@ -1,0 +1,28 @@
+.hero-image{
+    height: 232px;
+    width: 396px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+.h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.p{
+    width: 330px;
+    font-weight: 300;
+    color: #222222;
+    line-height: 110%;
+}
+
+.p,.h1{
+    margin-left: 36px;
+    margin-top: 0;
+}

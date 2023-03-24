@@ -1,0 +1,72 @@
+.card{
+    margin-left: 37px;
+    margin-top: 49px;
+    width: 176px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;   
+}
+
+.card-img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-container{
+    position: relative;
+    height: 235px;
+    width: 100%;
+    margin-bottom: 9px;
+}
+
+.sold-out{
+    position: absolute;
+    top: -4px;
+    left: 6px;
+    font-size: 10px;
+    padding: 3px 10px;
+    font-weight: 400;
+    width: 49px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.star{
+    margin-top: 0;
+    height: 14px;
+    width: 14px;
+}
+
+.overall{
+    display: flex;
+    align-items: center;
+}
+
+.country{
+    color: #918E9B;
+}
+
+.country,.point{
+    margin-top: 0;
+    margin-left: 3px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+.description,.price{
+    width: 100%;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.price{
+    font-weight: 600;
+}
+
+.price > span{
+    font-weight: 300;
+}
