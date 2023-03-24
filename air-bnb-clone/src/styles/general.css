@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 70px;
+}
+
+
+/* .app-grid{
+    margin-left: 20px;
+    display: grid;
+    gap: 25px;
+}
+
+@media (min-width: 500px){
+    .app-grid{
+        grid-template-columns: repeat(2, 220px);
+    }
+}
+
+@media (min-width: 750px){
+    .app-grid{
+        grid-template-columns: repeat(3, 220px);
+    }
+}
+
+@media (min-width: 1000px){
+    .app-grid{
+        grid-template-columns: repeat(4, 220px);
+    }
+} */
+
+@media (min-width: 1250px){
+    .app-grid{
+        grid-template-columns: repeat(5, 220px);
+    }
+}
+
+.cardBox{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
