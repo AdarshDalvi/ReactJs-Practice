@@ -1,0 +1,52 @@
+.toggleBox{
+    cursor: pointer;
+    display: flex;
+    width: 25px;
+    height: 13px;
+    background-color: #2B283A;
+    border-radius: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-inline: 7px;
+    border: 1px solid #2B283A;
+}
+
+.darkMode .toggleBox{
+    justify-content: flex-end;
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+}
+
+.toggleCircle{
+    background-color: white;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+}
+
+.darkMode .toggleCircle{
+    background-color: #222222;
+}
+
+.light{
+    color: black;
+}
+
+.dark{
+    color: #D5D4D8;
+}
+
+
+.darkMode >.light{
+    color: #918E9B;
+}
+
+.darkMode >.dark{
+    color: #ffffff;
+}
+
+.dark, .light{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
