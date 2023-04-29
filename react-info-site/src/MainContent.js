@@ -1,8 +1,12 @@
 import "./styles/styles.css"
 
-function MainContent(){
+function MainContent({isDark}){
+    let style ={
+        backgroundColor:isDark?"#282D35":"#FFFFFF",
+        color:isDark?"#FFFFFF":"#282D35",
+    }
     return (
-        <main>
+        <main style={style} className={isDark?"main-dark":"main-light"}>
             <h1 className="heading" >Fun facts about React</h1>
             <ul>
                 <li><span>Was first released in 2013</span></li>

@@ -1,3 +1,23 @@
+main{
+    position: absolute;
+    top: 91px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-image: url(large-logo.png); */
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.main-light{
+    background-image: url(large-logo-light.png);
+}
+
+.main-dark{
+    background-image: url(large-logo.png);
+}
+
 
 
 body{
@@ -35,7 +55,6 @@ ul > li{
 }
 
 ul > li > span{
-    color: white;
     font-size: 16px;
     font-weight: 400;
 }
@@ -43,19 +62,6 @@ ul > li > span{
 .heading{
     margin-top: 57px;
     margin-left: 27px;
-    color: white;
     font-size: 39px;
 }
 
-main{
-    position: absolute;
-    top: 91px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color:#282D35;
-    background-image: url(large-logo.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
-}

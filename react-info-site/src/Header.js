@@ -1,17 +1,23 @@
+import ToggleSwitch from "./ToggleSwitch";
 import "./styles/header.css"
-import search from "./search.svg"
+import React from 'react'
 
-function Header(){
+function Header(props){
+
+    let src= props.isDark?`react_logo.png`:`reactjs-light.png`
+
+
     return (
-        <header>
-            <nav className="nav">
-                <div className="right-section">
-                    <img src="/images/react_logo.png" className="logoImage" ></img>
-                    <p>ReactFacts</p>
-                </div>
-                <p className="extra">React Course - Project 1</p>
-            </nav>
-        </header>
+        <nav className='nav' style={{backgroundColor:props.isDark?"#21222A": "#FFFFFF"}}>
+            <div className="right-section">
+                <img src={`/images/${src}`} className="logoImage" ></img>
+                <p style={{color:props.isDark?"##00ABCA": "#00ABCA"}}>ReactFacts</p>
+            </div>
+            <ToggleSwitch 
+                isDark={props.isDark}
+                toggleSwitch={()=>props.toggleSwitch()}
+            />
+        </nav>
     )
 }
 
