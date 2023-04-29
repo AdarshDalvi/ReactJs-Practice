@@ -14,7 +14,7 @@ function App(){
         <div className="container">
             <Header 
                 isDark= {isDark}
-                toggleSwitch={toggleSwitch}
+                toggleSwitch={()=>toggleSwitch()}
             />
             <MainContent 
                 isDark={isDark}
