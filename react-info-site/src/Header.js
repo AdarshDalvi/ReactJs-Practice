@@ -15,7 +15,7 @@ function Header(props){
             </div>
             <ToggleSwitch 
                 isDark={props.isDark}
-                toggleSwitch={()=>props.toggleSwitch()}
+                toggleSwitch={props.toggleSwitch}
             />
         </nav>
     )
